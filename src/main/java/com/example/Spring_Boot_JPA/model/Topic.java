@@ -47,5 +47,11 @@ public class Topic {
 		this.description = description;
 	}
 	
+	@Override
+	public String toString()
+	{
+		return "[id :"+id+", name :"+name+", description :"+description+"]";
+	}
+	
 	
 }

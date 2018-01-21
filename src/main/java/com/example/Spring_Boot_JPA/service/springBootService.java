@@ -8,9 +8,10 @@ import org.springframework.stereotype.Service;
 
 import com.example.Spring_Boot_JPA.model.Topic;
 import com.example.Spring_Boot_JPA.repository.TopicRepository;
+import com.example.Spring_Boot_JPA.serviceInterface.SpringBootServiceInter;
 
 @Service
-public class springBootService {
+public class springBootService implements SpringBootServiceInter{
 
 	@Autowired
 	private TopicRepository topicRepository;
@@ -83,6 +84,16 @@ public class springBootService {
 		topics.remove(count);	
 		*/
 		topicRepository.delete(id);
+	}
+	
+	public Topic getById(String id)
+	{
+		return topicRepository.getById(id);
+	}
+	
+	public Topic getByIdAndName(String id,String name)
+	{
+		return topicRepository.getByIdAndName(id, name);
 	}
 	
 }
