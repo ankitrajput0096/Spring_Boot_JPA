@@ -36,14 +36,8 @@ These instructions will get you a copy of the project up and running on your loc
 
     ```
     1) Database port : 5432
-    ```
-    ```	
     2) Database name : spring_boot_jpa
-    ```
-    ```
     3) Database username : postgres
-    ```
-    ```
     4) Database password : ankitrajput
     ```
 
