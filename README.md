@@ -31,12 +31,20 @@ These instructions will get you a copy of the project up and running on your loc
     ```
     https://www.postgresql.org/download/
     ```
+
+    #### With Details as : 
+
     ```
-    #### With Details as :
-	##### 1) Database port : 5432
-	##### 2) Database name : spring_boot_jpa
-	##### 3) Database username : postgres
-	##### 2) Database password : ankitrajput
+    1) Database port : 5432
+    ```
+    ```	
+    2) Database name : spring_boot_jpa
+    ```
+    ```
+    3) Database username : postgres
+    ```
+    ```
+    4) Database password : ankitrajput
     ```
 
 ### Installing
@@ -57,7 +65,7 @@ mvn spring-boot:run
 
 Your server should be now running on http://localhost:8090
 
-## testing endpoints with Postman
+## Testing endpoints with Postman
 
 1. Install Postman (https://www.getpostman.com)
 2. Import Postman collection from the `Simple_Spring_boot_application.postman_collection.json` file
