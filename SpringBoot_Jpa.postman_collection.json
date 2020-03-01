@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "5b85680f-e954-40ea-865b-00578d900ea8",
-		"name": "Dockerized_SpringBoot_PostgreSQL",
+		"_postman_id": "e0b2677a-d85b-42d6-8ca3-8d27baf02be7",
+		"name": "SpringBoot_Jpa",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
